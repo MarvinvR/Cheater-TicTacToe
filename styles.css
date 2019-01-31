@@ -1,0 +1,35 @@
+#main{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 20pt;
+    padding: 70px 0;
+    border: 3px solid white;
+    text-align: center;
+}
+.field{
+    text-align: center;
+    height: 120px;
+    width: 120px;
+    margin: 0;
+    margin-bottom: 7px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    overflow: hidden;
+    font-size: 72pt;
+    color: white;
+    font-weight: lighter;
+}
+.field:hover {
+    cursor: pointer;
+}
+#row{
+    display: inline-block;
+}
+button{
+    height: 60px;
+    width: 160px;
+    border-radius: 10px;
+    color: black;
+    background-color: lightgrey;
+}

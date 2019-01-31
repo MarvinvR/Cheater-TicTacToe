@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>TicTacToe</title>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="main">
+        <div>
+            <h1>TicTacToe</h1>
+            <div id="row">
+                <div onclick="run(11);" class="field" id="11" style="border-left-color: white; border-top-color: white; border-bottom-right-radius: 4px;">0</div>
+                <div onclick="run(12);" class="field" id="12" style="border-left-color: white; border-top-right-radius: 4px; border-bottom-right-radius: 4px;">0</div>
+                <div onclick="run(13);" class="field" id="13" style="border-left-color: white; border-bottom-color: white; border-top-right-radius: 4px;">0</div>
+            </div>
+            <div id="row">
+                <div onclick="run(21);" class="field" id="21" style="border-top-color: white; border-bottom-left-radius: 4px; border-bottom-right-radius: 4px;">0</div>
+                <div onclick="run(22);" class="field" id="22" style="border-radius: 4px;">0</div>
+                <div onclick="run(23);" class="field" id="23" style="border-bottom-color: white; border-top-left-radius: 4px; border-top-right-radius: 4px;" >0</div>
+            </div>
+            <div id="row">
+                <div onclick="run(31);" class="field" id="31" style="border-top-color: white; border-right-color: white; border-bottom-left-radius: 4px;" >0</div>
+                <div onclick="run(32);" class="field" id="32" style="border-right-color: white; border-top-left-radius: 4px; border-bottom-left-radius: 4px;">0</div>
+                <div onclick="run(33);" class="field" id="33" style="border-bottom-color: white; border-right-color: white; border-top-left-radius: 4px;">0</div>
+            </div>
+        </div>
+        <br>
+        <div id="popup">-</div>
+        <br>
+        <button onclick="location.reload()">Reset</button>
+    </div>
+</body>
+</html> 
